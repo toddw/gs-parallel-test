@@ -1,0 +1,14 @@
+{
+  "/": {
+    "name": "main",
+    "component": "src/apps/main/Index.js",
+    "routes": "src/apps/main/routes.js",
+    "reducers": "src/apps/main/reducers"
+  },
+  "/two": {
+    "name": "two",
+    "component": "src/apps/two/Index.js",
+    "routes": "src/apps/two/routes.js",
+    "reducers": "src/apps/two/reducers"
+  }
+}

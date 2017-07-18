@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+const fs = require("fs");
+const path = require("path");
+const data = fs.readFileSync(path.join(__dirname, "..", "src", "entries.json"));
+
+try {
+  const entries = JSON.parse(data);
+  // eslint-disable-next-line no-console
+  console.log(Object.keys(entries).map(k => `/${entries[k].name}`).join("\n"));
+}
+catch (e) {
+  throw "Failed to read entries file", e;
+}
+
