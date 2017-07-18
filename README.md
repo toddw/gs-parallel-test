@@ -12,4 +12,7 @@ NODE_ENV=production bin/build
 NODE_ENV=production gluestick start -P
 ```
 
+Open browser to: http://localhost:8880/two
+and http://localhost:8880/
+
 
