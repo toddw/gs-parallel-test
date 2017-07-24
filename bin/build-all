@@ -1,4 +1,4 @@
 #!/bin/sh
 gluestick build --server
 gluestick build -D
-./bin/entries | xargs -n1 -P 5 gluestick build -B -A
+./bin/entries | xargs -n1 -P 5 gluestick build -B --client -A
