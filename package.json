@@ -6,6 +6,7 @@
   "scripts": {
     "start": "gluestick start",
     "test": "gluestick test",
+    "build": "bin/build-all",
     "flow": "flow",
     "lint": "eslint src"
   },
